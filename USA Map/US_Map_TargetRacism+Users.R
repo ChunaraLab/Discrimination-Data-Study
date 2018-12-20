@@ -53,10 +53,6 @@ for(i in 1:nrow(racism)){
   racism$lon[i]<-cities1$Longitude[cities1$AccentCity==city&cities1$Region==state]
 }
 
-#racism$ratio=racism$RacismUsers/racism$RacismTweets
-#racism$ratio[3]<-1
-#racism$ratio[7]<-1
-
 #create map
 usa <- map_data("usa")
 
