@@ -82,12 +82,9 @@ ggplot() +
   geom_polygon(data = usa, aes(x=long, y = lat, group = group), fill = NA, color = "grey") + 
   coord_fixed(1.3)+
   geom_point(data=racism, aes(x=lon, y=lat, color=RT, size=ratio))+
-  #geom_point(data=racism[racism$Proportion.of.Racism.that.is.Targeted>0.5,], pch=21, fill=NA, stroke=3,aes(x=lon, y=lat, color=HC, size=ratio*1.5))+
   scale_colour_manual(values=c("black","red", "darkgreen", "orange"))+
   scale_size_continuous(name="Total number of Tweets",range = c(0.11, 6),breaks=5)+
   geom_text_repel(data=racism, aes(x=lon, y=lat,label=City,color=RT),size=6,parse=TRUE)+
-  #geom_text_repel(data=racism[racism$Proportion.of.Racism.that.is.Targeted>0.5,], aes(x=lon, y=lat,label=parseLabel,color=HC),size=6,parse=TRUE)+
-  #geom_text_repel(data=racism[racism$Proportion.of.Racism.that.is.Targeted<=0.5,], aes(x=lon, y=lat,label=City,color=HC),size=6)+
   scale_colour_manual(values=c("red", "darkgreen", "orange"))+ 
   theme_bw()+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
   theme(axis.title=element_blank(),axis.text=element_blank(),axis.ticks=element_blank(),panel.border = element_blank())+
