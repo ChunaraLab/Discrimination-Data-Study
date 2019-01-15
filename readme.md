@@ -13,7 +13,7 @@ Specifically, the data (census attributes, hate crime data, EMPATH features for 
 ### Shallow Neural Network Classifier
 
 #### Training and Testing data
-The training data, as decribed in the paper, is in the ["Training and Testing Data"](https://github.com/ChunaraLab/Discrimination-Data-Study/tree/master/Classifier/Training%20and%20Testing%20Data) folder.
+The training data (17000 labeled Tweets), as decribed in the paper, is in the ["Training and Testing Data"](https://github.com/ChunaraLab/Discrimination-Data-Study/tree/master/Classifier/Training%20and%20Testing%20Data) folder. The testing file is a sample file showing the format that needs to be used for testing/classifying the data. While labels are needed for testing the data, the labels column can contain any random value while classifying the data.
 
 #### Code 
 The ["textClassifierFasttext.py"](https://github.com/ChunaraLab/Discrimination-Data-Study/blob/master/Classifier/textClassifierFasttext.py) contains the code to assign probabilites (between 0 and 1, 1 denoting racist Tweet) to each Tweet. Input (training data) should be in the train.csv file. The Tweets to be labeled needs to be in the test.csv file.
