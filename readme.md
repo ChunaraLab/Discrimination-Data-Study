@@ -28,5 +28,30 @@ Color of the city names is based on number of all hate crimes in a city:
 green: <10 hate crimes for 4 or more years 
 yellow: 11-25 hate crimes for 4 or more years 
 red: >25 hate crimes for 4 or more years 
+
 size of dot is based on the number of Tweets
+```
+
+* [US_Map_RHC.R](https://github.com/ChunaraLab/Discrimination-Data-Study/blob/master/USA%20Map/US_Map_RHC.R)
+```
+Color of the city names is based on number of racism hate crimes: 
+green: <= 4 race-based hate crimes
+yellow: between 4-9
+red: greater than 9
+
+size of dot is based on number of racism hate crimes 
+
+```
+
+* [US_Map_TargetRacism+Users.R](https://github.com/ChunaraLab/Discrimination-Data-Study/blob/master/USA%20Map/US_Map_TargetRacism%2BUsers.R)
+```
+Color of the city names is based on proportion tweets that exhibit racism (self narration or targeted):
+green: lowest 25% of cities
+yellow: 25-75%
+red: top 25%
+
+size of dot is based on the ratio of number unique users:number racism tweets
+
+Underline indicates the cities that have a proportion of racism that is targeted > 0.5
+
 ```
