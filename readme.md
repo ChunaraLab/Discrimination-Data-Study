@@ -18,6 +18,15 @@ The ["textClassifierFasttext.py"](https://github.com/ChunaraLab/Discrimination-D
 
 The threshold for the classifier needs to be decided by optimally balancing the precision and recall.
 
-**US Maps**
+## US Maps
 
-R code to produce different versions of US city maps.
+There are 3 different versions of maps that can be produced:
+
+* [US_Map.R](https://github.com/ChunaraLab/Discrimination-Data-Study/blob/master/USA%20Map/US_Map.R)
+``` 
+Color of the city names is based on number of all hate crimes in a city:
+green: <10 hate crimes for 4 or more years 
+yellow: 11-25 hate crimes for 4 or more years 
+red: >25 hate crimes for 4 or more years 
+size of dot is based on the number of Tweets
+```
