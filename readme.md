@@ -18,7 +18,7 @@ The ["textClassifierFasttext.py"](https://github.com/ChunaraLab/Discrimination-D
 
 The threshold for the classifier needs to be decided by optimally balancing the precision and recall.
 
-## US Maps (uses R v3.2 or higher)
+## US Maps (uses R v3.5.2 or higher)
 
 There are 3 different versions of maps that can be produced:
 
