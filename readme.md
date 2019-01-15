@@ -6,7 +6,7 @@ This github repository contains the code related to our paper comparing online h
 
 Information related to all the datsets used in this paper (Hate Crime, Twitter (social media), and Census data) can be found on Data sets  tab of [this](https://docs.google.com/spreadsheets/d/1C_edqgPevg9Rq5N3Dm4nuYo16bIqBXdTCJGXwdATkPI/edit?usp=sharing) document.
 
-##Classifier
+## Classifier
 
 ### Shallow Neural Network Classifier
 
