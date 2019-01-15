@@ -6,7 +6,7 @@ This github repository contains the code related to our paper comparing online h
 
 Information related to all the datsets used in this paper (Hate Crime, Twitter (social media), and Census data) can be found on Data sets  tab of [this](https://docs.google.com/spreadsheets/d/1C_edqgPevg9Rq5N3Dm4nuYo16bIqBXdTCJGXwdATkPI/edit?usp=sharing) document.
 
-## Classifier
+## Classifier (uses python 2.7 or higher)
 
 ### Shallow Neural Network Classifier
 
@@ -18,7 +18,7 @@ The ["textClassifierFasttext.py"](https://github.com/ChunaraLab/Discrimination-D
 
 The threshold for the classifier needs to be decided by optimally balancing the precision and recall.
 
-## US Maps
+## US Maps (uses R v3.2 or higher)
 
 There are 3 different versions of maps that can be produced:
 
