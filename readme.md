@@ -10,10 +10,10 @@ Information related to all the datsets used in this paper (Hate Crime, Twitter (
 
 ### Shallow Neural Network Classifier
 
-** Training and Testing data**
+#### Training and Testing data
 The training data, as decribed in the paper, is in the ["Training and Testing Data"](https://github.com/ChunaraLab/Discrimination-Data-Study/tree/master/Classifier/Training%20and%20Testing%20Data) folder.
 
-** Code **
+#### Code 
 The ["textClassifierFasttext.py"](https://github.com/ChunaraLab/Discrimination-Data-Study/blob/master/Classifier/textClassifierFasttext.py) contains the code to assign probabilites (between 0 and 1, 1 denoting racist Tweet) to each Tweet. Input (training data) should be in the train.csv file. The Tweets to be labeled needs to be in the test.csv file.
 
 The threshold for the classifier needs to be decided by optimally balancing the precision and recall.
