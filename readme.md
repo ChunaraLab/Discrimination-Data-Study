@@ -55,3 +55,5 @@ size of dot is based on the ratio of number unique users:number racism tweets
 Underline indicates the cities that have a proportion of racism that is targeted > 0.5
 
 ```
+
+(all the required input files are included in the folder as csv files)
