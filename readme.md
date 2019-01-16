@@ -6,7 +6,7 @@ This github repository contains the code related to our paper comparing online h
 
 Information related to all the datsets used in this paper (Hate Crime, Twitter (social media), and Census data) can be found on Data sets  tab of [this](https://docs.google.com/spreadsheets/d/1C_edqgPevg9Rq5N3Dm4nuYo16bIqBXdTCJGXwdATkPI/edit?usp=sharing) document.
 
-Specifically, the data (census attributes, hate crime data, EMPATH features for each city) for all 100 cities spanning across 6 years (2011-2016) can also be found on [this](https://docs.google.com/spreadsheets/d/196ZspePdDRhCJW_8Eyx_9Gy2RyzMUJXVbmtPEw4Txyk/edit?usp=sharing) Google Spreadsheet.
+Specifically, the data (census attributes, hate crime data, EMPATH features for each city) for all 100 cities spanning across 6 years (2011-2016) can also be found on "Results for new 50 cities" and "Results for first 50 cities" tabs of [this](https://docs.google.com/spreadsheets/d/196ZspePdDRhCJW_8Eyx_9Gy2RyzMUJXVbmtPEw4Txyk/edit?usp=sharing) Google Spreadsheet.
 
 ## Classifier (uses python 2.7 or higher)
 
